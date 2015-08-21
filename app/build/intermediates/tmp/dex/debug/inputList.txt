@@ -1,0 +1,4 @@
+/Users/hornettao/Develop/Android/CommentApp/app/build/intermediates/classes/debug
+/Users/hornettao/Develop/Android/CommentApp/app/build/intermediates/pre-dexed/debug/locSDK_4.2-6fee760ab5ce8db6efd6428a11188d26358f16db.jar
+/Users/hornettao/Develop/Android/CommentApp/app/build/intermediates/pre-dexed/debug/android-support-v4-9ac0be6defb9c4cad998f62ed66731becb3963ab.jar
+/Users/hornettao/Develop/Android/CommentApp/app/build/intermediates/pre-dexed/debug/baidumapapi_v3_1_1-1045f9d049083a1702b62dfc95352cf51cd278a2.jar

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/topLinearLayout"
+        android:background="@color/orange"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <Button
+            android:id="@+id/backButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="返回"
+            android:gravity="center"
+            style="@style/TopLeftButton"
+            android:background="@drawable/selector_top_left_button"/>
+        <AutoCompleteTextView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="3"
+            android:id="@+id/searchAutoCompleteTextView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:hint="  输入商户名、地点"
+            android:drawableLeft="@drawable/search"
+            android:background="@drawable/searchedittext"
+            android:textColorHint="@color/searchHintColor"
+            android:singleLine="true"
+            android:imeOptions="actionGo"
+            />
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="搜索"
+            android:gravity="center"
+            style="@style/TopLeftButton"
+            android:background="@drawable/selector_top_left_button"/>
+
+        </LinearLayout>
+
+    <!--<ListView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/historyListView"-->
+        <!--android:layout_below="@+id/topLinearLayout"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:transcriptMode="normal"/>-->
+    
+    <FrameLayout
+        android:layout_below="@+id/topLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bottomFrameLayout">
+    </FrameLayout>
+
+</RelativeLayout><!-- From: file:/Users/hornettao/Develop/Android/CommentApp/app/src/main/res/layout/activity_search.xml -->

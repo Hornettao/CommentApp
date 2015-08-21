@@ -1,0 +1,107 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/topLinearLayout"
+        android:background="@color/orange"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/topLeftLinearLayout"
+            >
+            <Button
+                android:id="@+id/locationButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="北京"
+                android:gravity="center"
+                style="@style/TopLeftButton"
+                android:background="@drawable/selector_top_left_button"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/topCenterLinearLayout"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <EditText
+                android:id="@+id/searchEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="  输入商户名、地点"
+                android:drawableLeft="@drawable/search"
+                android:background="@drawable/searchedittext"
+                android:textColorHint="@color/searchHintColor"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/topRightLinearLayout"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <!--<ImageButton-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/scanImageButton"-->
+            <!--android:src="@drawable/scan"/>-->
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/scan"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_weight="8"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/centerLinearLayout">
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/bottomFrameLayout"
+        android:background="@drawable/maintab_toolbar_bg">
+        <com.hornettao.fragmenttabhost.FragmentTabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.hornettao.fragmenttabhost.FragmentTabHost>
+    </LinearLayout>
+
+    <!--<com.hornettao.fragmenttabhost.FragmentTabHost-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="10"-->
+        <!--android:id="@android:id/tabhost"-->
+        <!--android:background="@drawable/maintab_toolbar_bg">-->
+
+    <!--</com.hornettao.fragmenttabhost.FragmentTabHost>-->
+
+</LinearLayout>

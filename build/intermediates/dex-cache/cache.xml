@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/hornettao/Develop/Android/CommentApp/app/libs/locSDK_4.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b93335a2753c93f8b8f56741615cb81ea72437">
+        <dex dex="/Users/hornettao/Develop/Android/CommentApp/app/build/intermediates/pre-dexed/debug/locSDK_4.2-6fee760ab5ce8db6efd6428a11188d26358f16db.jar" />
+    </item>
+    <item
+        jar="/Users/hornettao/Develop/Android/CommentApp/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507">
+        <dex dex="/Users/hornettao/Develop/Android/CommentApp/app/build/intermediates/pre-dexed/debug/android-support-v4-9ac0be6defb9c4cad998f62ed66731becb3963ab.jar" />
+    </item>
+    <item
+        jar="/Users/hornettao/Develop/Android/CommentApp/app/libs/baidumapapi_v3_1_1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fd80439473ff6e0e9ae45f95af48302271e1e45e">
+        <dex dex="/Users/hornettao/Develop/Android/CommentApp/app/build/intermediates/pre-dexed/debug/baidumapapi_v3_1_1-1045f9d049083a1702b62dfc95352cf51cd278a2.jar" />
+    </item>
+
+</items>
